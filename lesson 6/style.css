@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+html{
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+.wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.blue{
+    background-color: #00d4ff;
+}
+.header-color{
+    background-color: #171e37;
+}
+.header-top{
+    background: #181e37
+}
+.logo{
+    font-size: 50px;
+    line-height: 42px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+nav{
+    margin-bottom: 50px;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}

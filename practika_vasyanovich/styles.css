@@ -3,16 +3,11 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    list-style: none;
-
 }
 html{
     background-color: #C9A5AA;
-    font-family: Arial, sans-serif;
+    font-family: Arial, Verdana, sans-serif, ABeeZee;
     text-align: left;
-}
-a{
-    color: #006EBE;
 }
 body{
     margin: 64px auto;
@@ -30,6 +25,22 @@ header .wrapper button{
     padding: 6px 10px;
     border: none;
     background: none;
+    border-radius: 4px;
+}
+:link{
+    color: #006EBE;
+}
+:visited{
+    color: #0B257D;
+}
+header .wrapper :hover{
+    background-color: #ffffff;
+    color: #5EAAE0;
+}
+main .wrapper{
+    border-top-right-radius: 16px;
+    border-top-left-radius: 16px;
+    overflow: hidden;
 }
 #rounded-box{
     background-color: #E9E9E9;
@@ -38,17 +49,28 @@ header .wrapper button{
     padding: 8px;
     border-radius: 8px;
     margin-bottom: 16px;
+    font-size: 12px;
 }
 h1{
-    font: Verdana;
+    font-family: Verdana, sans-serif;
     font-weight: 700;
     font-size: 42px;
     margin-bottom: 16px;
 }
 h2{
-    font: Verdana;
+    font-family: Verdana, sans-serif;
     font-weight: 700;
     font-size: 24px;
+    margin-bottom: 8px;
+}
+p{
+    font-family: ABeeZee, sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    margin-bottom: 16px;
+}
+section{
+    margin-bottom: 16px;
 }
 .wrapper {
     max-width: 800px;
@@ -62,13 +84,15 @@ h2{
     justify-content: center;
     align-items: center;
     background-color: #F4D3D3;
-    padding: auto 30;
+    padding-top: 20px;
     width: 700px;
     height: 451px;
     border-radius: 12px;
-    font: Verdana !important;
+}
+#img-box i{
+    font-family: Verdana, sans-serif;
     font-weight: 400;
-    font-style: italic;
+    font-size: 16px;
 }
 #img-box img{
     width: 640px;
@@ -78,4 +102,44 @@ h2{
     border-top-right-radius: 8px;
     border-bottom-left-radius: 6px;
     border-bottom-right-radius: 8px;
+}
+#list{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 10px;
+    list-style-position: inside;
+}
+#list li{
+    font-family: ABeeZee, sans-serif;
+    font-size: 14px;
+    padding: 10px;
+    border-bottom: 1px solid #C9A5AA;
+}
+#list li:nth-child(even) {
+    background-color: #FDF0F0;
+}
+#list li:nth-child(1) {
+    background-color: #FCF5E9;
+}
+#list li:last-child {
+    border: none;
+}
+.footer {
+    max-width: 800px;
+    background-color: #F4D3D3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    margin: 0px auto;
+}
+
+.footer p {
+    font-family: ABeeZee, sans-serif;
+    font-weight: 400;
+    margin-bottom: 0;
+    font-size: 14px;
+    color: #555;
 }
